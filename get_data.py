@@ -4,7 +4,7 @@ import urllib
 import config as cfg
 import pandas as pd
 
-os.chdir(os.path.expanduser('~/') + 'Code/data_science/college_reviews')
+os.chdir(os.path.expanduser('~/') + 'Code/data_science/CollegeProfile')
 college_names = cfg.list_places 
 key = cfg.api_key
 
